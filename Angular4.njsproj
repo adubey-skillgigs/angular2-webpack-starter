@@ -30,15 +30,25 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="bin\Microsoft.NodejsTools.WebRole.dll" />
+    <Content Include="dist\webpack-assets.json" />
+    <Content Include="dll\dll-bundles-state.json" />
+    <Content Include="dll\polyfills-manifest.json" />
+    <Content Include="dll\polyfills.dll.js.map" />
+    <Content Include="dll\vendor-manifest.json" />
+    <Content Include="dll\vendor.dll.js.map" />
     <Content Include="Dockerfile" />
     <Content Include="firebase.json" />
     <Content Include="LICENSE" />
     <Content Include="netlify.toml" />
+    <Content Include="obj\Debug\Angular4.njsproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Angular4.njsprojResolveAssemblyReference.cache" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="src\app\app.component.css" />
     <Content Include="src\app\home\home.component.css" />
     <Content Include="src\app\home\home.component.html" />
+    <Content Include="src\app\sample\sample.html" />
     <Content Include="src\assets\css\.gitkeep" />
     <Content Include="src\assets\data.json" />
     <Content Include="src\assets\humans.txt" />
@@ -86,9 +96,14 @@
     <Content Include="typedoc.json" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\" />
     <Folder Include="config\" />
     <Folder Include="config\github-deploy\" />
     <Folder Include="config\html-elements-plugin\" />
+    <Folder Include="dist\" />
+    <Folder Include="dll\" />
+    <Folder Include="obj\" />
+    <Folder Include="obj\Debug\" />
     <Folder Include="src\" />
     <Folder Include="src\app\" />
     <Folder Include="src\app\+barrel\" />
@@ -100,6 +115,7 @@
     <Folder Include="src\app\home\title\" />
     <Folder Include="src\app\home\x-large\" />
     <Folder Include="src\app\no-content\" />
+    <Folder Include="src\app\sample\" />
     <Folder Include="src\assets\" />
     <Folder Include="src\assets\css\" />
     <Folder Include="src\assets\icon\" />
@@ -123,6 +139,8 @@
     <Compile Include="config\webpack.github-deploy.js" />
     <Compile Include="config\webpack.prod.js" />
     <Compile Include="config\webpack.test.js" />
+    <Compile Include="dll\polyfills.dll.js" />
+    <Compile Include="dll\vendor.dll.js" />
     <Compile Include="karma.conf.js" />
     <Compile Include="protractor.conf.js" />
     <Compile Include="src\assets\service-worker.js" />
@@ -169,6 +187,8 @@
     <TypeScriptCompile Include="src\app\index.ts" />
     <TypeScriptCompile Include="src\app\no-content\index.ts" />
     <TypeScriptCompile Include="src\app\no-content\no-content.component.ts" />
+    <TypeScriptCompile Include="src\app\sample\index.ts" />
+    <TypeScriptCompile Include="src\app\sample\sample.component.ts" />
     <TypeScriptCompile Include="src\custom-typings.d.ts" />
     <TypeScriptCompile Include="src\main.browser.aot.ts" />
     <TypeScriptCompile Include="src\main.browser.ts" />

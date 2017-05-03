@@ -1,0 +1,2 @@
+E:\Projects\Angular\angular2-webpack-starter\obj\Debug\Angular4.njsprojResolveAssemblyReference.cache
+E:\Projects\Angular\angular2-webpack-starter\bin\Microsoft.NodejsTools.WebRole.dll
